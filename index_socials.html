@@ -1,13 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Se inscreva</title>
+    <title>Exemplo de se inscreva</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="two-column-layout">
+    <div class="tow-column-layout">
         <div class="left">
             <form class="my-form">
                 <div class="login-welcome-row">
@@ -15,45 +18,47 @@
                      <h1>Comece agora</h1>
                      <p>Entre com suas credenciais para acessar sua conta</p>
                 </div>
-                <div class="social-row">
+                <div class="socials-row">
                     <a href="#" title="Use Google">
                         <img src="assets/google.png" alt="Google">
-                        Se inscreva com o Google
+                        Se inscreva com Google
                     </a>
-                    <!-- links -->
+                    <!-- LINKS -->
                 </div>
                 <div class="lines">
-                    <div class="line"></div>ou<div class="line"></div>
+                    <div class="line"></div>
+                    ou
+                    <div class="line"></div>
                 </div>
                 <div class="text-field">
-                    <label for="name">Nome</label>
-                    <input type="text" name="name" id="name" autocomplete="off" placeholder="Vinicius Santana" required>
-                    <div class="error-message">Necessário colocar seu Nome</div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" autocomplete="off" placeholder="Vini Santana" required>
+                    <div class="error-message">Seu nome é necessário</div>
                 </div>
-                <!-- text fields -->
-                 <button class="my-form__button" type="submit">
-                    Se inscreva
-                 </button>
+                <!-- TEXT FIELDS -->
+                 <button type="submit" class="my-form__button">Se inscreva</button>
                  <div class="my-form__actions">
                     <div class="my-form__row">
                         <div>
                             <span>Já tem uma conta?</span>
-                            <a href="#" title="login">Entre</a>
+                            <a href="#" tittle="Login">
+                                Entre
+                            </a>
                         </div>
                         <div>
-                            <a href="#forgot-password" title="Forgot password">Esqueceu a sua senha?</a>
+                            <a href="#forgot-password" tittle="Forgot password">Esqueceu sua senha?</a>
                         </div>
                     </div>
                  </div>
             </form>
             <footer class="footer">
-                <a href="https://github.com/vini-santana14" target="_blank">2024 &copy;Vinicius Santana.</a>
+                <a href="https://github.com/vini-santana14" target="_blank">2024 &copy;Vinicius Santana.</a> 
             </footer>
         </div>
         <div class="right">
             <div class="box">
-                <h2>Torne seu tempo mais eficiente</h2>
-                <p>O simples caminho para gerenciar o seu esforço!</p>
+                <h2>Faça seu tempo ser mais eficiente</h2>
+                <p>O simples caminho para gerenciar seu esforço!</p>
                 <img src="assets/dashboard.png" alt="Dashboard" class="mockup">
                 <div class="logos">
                     <img src="assets/logos/asana.svg" alt="Asana">
@@ -62,7 +67,6 @@
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
-
-<!-- REFERENCE https://github.com/atherosai/ui/tree/main/signup-05 -->
